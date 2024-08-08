@@ -43,7 +43,7 @@ In order to deploy and run this example, you'll need:
     - We recommend using Sweden Central or East US 2
 * **Azure subscription with access enabled for [Azure AI Speech Service](https://learn.microsoft.com/en-us/azure/ai-services/speech-service/)**
 
-## Opening the project
+## Getting Started
 
 You have a few options for setting up this project.
 The easiest way to get started is GitHub Codespaces, since it will setup all the tools for you, but you can also [set it up locally](#local-environment).
@@ -171,7 +171,9 @@ pf flow test --flow summarizationapp --inputs problem="I need to open a problem 
 
 To understand how the code works look through the `summarize.py` file. 
 
-## Costs
+## Guidance
+
+### Costs
 
 Pricing may vary per region and usage. Exact costs cannot be estimated.
 You may try the [Azure pricing calculator](https://azure.microsoft.com/pricing/calculator/) for the resources below:
@@ -180,7 +182,7 @@ You may try the [Azure pricing calculator](https://azure.microsoft.com/pricing/c
 * Azure OpenAI: Standard tier, GPT and Ada models. Pricing per 1K tokens used, and at least 1K tokens are used per question. [Pricing](https://azure.microsoft.com/pricing/details/cognitive-services/openai-service/)
 * Azure Monitor: Pay-as-you-go tier. Costs based on data ingested. [Pricing](https://azure.microsoft.com/pricing/details/monitor/)
 
-## Security Guidelines
+### Security Guidelines
 
 This template uses [Managed Identity](https://learn.microsoft.com/entra/identity/managed-identities-azure-resources/overview) for authenticating to the Azure services used (Azure OpenAI, Azure PostgreSQL Flexible Server).
 
